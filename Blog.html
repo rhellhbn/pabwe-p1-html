@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rachel's Blog 𝜗ৎ</title>
+</head>
+<body>
+  <!-- Artikel utama -->
+  <article id="post-1" itemscope itemtype="http://schema.org/BlogPosting">
+    <!-- Header artikel: judul dan info meta -->
+    <header>
+      <h1 itemprop="headline">Rachel's Blog 𝜗ৎ</h1>
+
+      <!-- Info author dan tanggal -->
+      <p>
+        Oleh
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">Rahel D. Hasibuan</span>
+        </span>
+        —
+        <time itemprop="datePublished" datetime="2025-09-12">07 September 2025</time>
+      </p>
+    </header>
+
+    <!-- Gambar utama -->
+    <figure itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+      <img src="laut dan kereta.jpg" alt="Gambaran utama postingan" width="800" height="450" />
+      <figcaption itemprop="description">“The ocean is everything I want to be—beautiful, mysterious, wild, and free.”</figcaption>
+    </figure>
+
+    <!-- Konten ringkas (contoh paragraf) -->
+    <div itemprop="articleBody">
+      <p>
+        Ini adalah website yang saya buat sebagai bagian dari praktikum 1 pada mata kuliah Pengembangan Aplikasi Berbasis Web (PABWE). 
+        Website ini berfungsi sebagai latihan awal untuk memahami dasar-dasar pembuatan halaman web serta cara menyusun strukturnya dengan benar.
+      </p>
+      <p>
+        Dalam pengerjaannya, saya menggunakan bahasa pemrograman HTML sebagai fondasi utama. 
+        Melalui latihan ini, saya berharap bisa semakin terbiasa dengan elemen-elemen HTML dasar dan dapat mengembangkannya menjadi halaman web yang lebih menarik serta interaktif pada praktikum berikutnya.
+      </p>
+    </div>
+
+    <!-- Sidebar kecil berisi info penulis dan label -->
+    <aside aria-labelledby="author-heading">
+      <h2 id="author-heading">Tentang Penulis</h2>
+
+      <!-- Foto dan nama author -->
+      <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <img src="Rahel.jpg" alt="Foto Nama Penulis" width="250" height="260" />
+        <p><strong itemprop="name">Rahel D. Hasibuan (11S23049) </strong></p>
+        <p itemprop="description">Saya adalah mahassiswa Informatika Institut Teknoologi Del angkatan 2023.</p>
+      </div>
+
+      <!-- Daftar label / tag -->
+      <section aria-labelledby="labels-heading">
+        <h3 id="labels-heading">Halaman lainnya dari tugas praktikum 1</h3>
+        <ul>
+          <li><a href="DetailBlog.html">Detail Blog</a></li>
+          <li><a href="FormPendaftaran.html">Form Pendaftaran</a></li>
+          <li><a href="TabelPerolehanNilai.html">Tabel Perolehan Nilai</a></li>
+          <li><a href="CurriculumVitae.html">Curriculum Vitae (CV)</a></li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- Footer artikel: metadata tambahan -->
+    <footer>
+      <p itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+        <span itemprop="name">Rahel's Blog / Informatika</span>
+      </p>
+    </footer>
+  </article>
+</body>
+</html>

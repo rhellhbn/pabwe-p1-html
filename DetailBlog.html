@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rachel's Detail Blog 𝜗ৎ</title>
+</head>
+<body>
+  <!-- Artikel -->
+    <h1 itemprop="headline">Rachel's Detail Blog 𝜗ৎ</h1>
+  <article itemscope itemtype="http://schema.org/BlogPosting">
+    <!-- Cover Image -->
+    <figure itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+      <img src="laut.jpg" alt="Cover image for the blog post" width="800" height="450" />
+      <figcaption itemprop="description">“Lost at sea is where I find myself.”</figcaption>
+    </figure>
+
+    <!-- Meta: author, photo, date -->
+    <header>
+      <div itemprop="author" itemscope itemtype="http://schema.org/Person" aria-label="Informasi penulis">
+        <img src="Rahel.jpg" alt="Foto penulis" width="250" height="260" />
+        <p><strong itemprop="name">Nama Penulis</strong></p>
+        <p>Rahel D. Hasibuan</></p>
+      </div>
+
+      <p>Diposting pada
+        <time itemprop="datePublished" datetime="2025-09-12">07 September 2025</time>
+      </p>
+
+      <!-- Judul -->
+      <h1 itemprop="headline">The Secret of the Waves</h1>
+    </header>
+
+    <!-- Deskripsi / Konten -->
+    <section itemprop="articleBody" aria-labelledby="desc-heading">
+      <h2 id="desc-heading">Deskripsi</h2>
+      <p>
+        The sea is more than just a vast body of water; it is a living canvas of endless motion and mystery. Its waves rise and fall like the rhythm of a heartbeat, carrying with them the whispers of time and the memories of distant lands. Standing by the shore, one can feel both the strength and serenity that the ocean offers, a reminder of how small yet deeply connected we are to the world around us.
+      </p>
+      <p>
+        Nature is the greatest teacher of harmony and balance, offering beauty in both the grandest mountains and the smallest leaves. Every sound of rustling trees, every ray of sunlight piercing through the clouds, and every flower that blooms reminds us of the miracle of life. To embrace nature is to rediscover peace, grounding ourselves in its quiet yet powerful presence.
+      </p>
+      <p>
+        Photography is the art of capturing fleeting moments and turning them into timeless stories. A single image can hold emotions, landscapes, and perspectives that words often fail to express. Through the lens, we learn to see the world with greater attention—finding beauty in light, shadows, and the simple details that often go unnoticed.
+      </p>
+    </section>
+
+    <!-- Label / Tags -->
+    <section aria-labelledby="labels-heading">
+        <h3 id="labels-heading">Halaman lainnya dari tugas praktikum 1</h3>
+        <ul>
+          <li><a href="Blog.html">Blog</a></li>
+          <li><a href="FormPendaftaran.html">Form Pendaftaran</a></li>
+          <li><a href="TabelPerolehanNilai.html">Tabel Perolehan Nilai</a></li>
+          <li><a href="CurriculumVitae.html">Curriculum Vitae (CV)</a></li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- Form Komentar -->
+    <section aria-labelledby="comment-form-heading">
+      <h2 id="comment-form-heading">Tinggalkan Komentar</h2>
+      <!-- action="#" hanya contoh karena tanpa back-end; ganti action dan method jika ada endpoint -->
+      <form action="#" method="post" aria-label="Form komentar">
+        <p>
+          <label for="comment-name">Nama</label><br />
+          <input type="text" id="comment-name" name="name" required />
+        </p>
+        <p>
+          <label for="comment-photo">URL Foto (opsional)</label><br />
+          <input type="url" id="comment-photo" name="photo" placeholder="https://example.com/me.jpg" />
+        </p>
+        <p>
+          <label for="comment-body">Komentar</label><br />
+          <textarea id="comment-body" name="comment" rows="4" required></textarea>
+        </p>
+        <p>
+          <button type="submit">Kirim Komentar</button>
+        </p>
+      </form>
+    </section>
+
+    <!-- Daftar Komentar (contoh statis) -->
+    <section aria-labelledby="comments-heading">
+      <h2 id="comments-heading">Komentar (3)</h2>
+
+      <!-- Komentar 1 -->
+      <div itemprop="comment" itemscope itemtype="http://schema.org/Comment" aria-label="Komentar dari A">
+        <div>
+          <img src="hirono.jpg" alt="Foto komentar A" width="48" height="48" />
+          <strong itemprop="author">Keonho</strong>
+        </div>
+        <div itemprop="text">
+          <p>Sangat inspiratif! Menikmati bacaan ini sambil membayangkan suara ombak.</p>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- Komentar 2 -->
+      <div itemprop="comment" itemscope itemtype="http://schema.org/Comment" aria-label="Komentar dari Budi">
+        <div>
+          <img src="hanna.jpg" alt="Foto komentar Budi" width="48" height="48" />
+          <strong itemprop="author">Hanna</strong>
+        </div>
+        <div itemprop="text">
+          <p>Terima kasih atas referensinya. Bisa dibagikan lagi sumber foto covernya?</p>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- Komentar 3 -->
+      <div itemprop="comment" itemscope itemtype="http://schema.org/Comment" aria-label="Komentar dari Clara">
+        <div>
+          <img src="jim.jpg" alt="Foto komentar Clara" width="48" height="48" />
+          <strong itemprop="author">Tim</strong>
+        </div>
+        <div itemprop="text">
+          <p>Keren! Gaya penulisannya lembut dan tenang, cocok dengan tema laut.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer artikel -->
+    <footer>
+      <p>© Rahel's Blog / Informatika</p>
+    </footer>
+  </article>
+</body>
+</html>
